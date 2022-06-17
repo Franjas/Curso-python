@@ -1,3 +1,6 @@
+"""Escribe una función que calcule el área de un triángulo, recibiendo la altura y la base como parámetros 
+y otra función que calcule el área de un círculo recibiendo el radio del mismo."""
+
 def area_triángulo(base=6, altura=10):
     return(base * altura) / 2
 
