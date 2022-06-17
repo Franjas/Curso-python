@@ -1,0 +1,10 @@
+def area_triángulo(base=6, altura=10):
+    return(base * altura) / 2
+
+def area_circulo(r=6, pi=3.1415):
+    return pi * (r * r)
+    
+
+resultado1 = area_triángulo(base=6, altura=10)
+resultado2 = area_circulo(r=6, pi=3.1415)
+print('El area del Triángulo es:',resultado1,'y el area del Circulo es:', resultado2)
