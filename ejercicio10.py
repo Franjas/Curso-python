@@ -5,7 +5,7 @@ def area_triángulo(base=6, altura=10):
     return(base * altura) / 2
 
 def area_circulo(r=6, pi=3.1415):
-    return pi * (r * r)
+    return pi * (r**2)
     
 
 resultado1 = area_triángulo(base=6, altura=10)
